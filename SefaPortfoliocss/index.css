@@ -1,0 +1,55 @@
+strong{
+    color: rgba(0, 23, 228, 0.925);
+    font-size: larger;
+}
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+body{
+    background-color: rgba(228, 228, 228, 0.836);
+}
+nav{
+    background-color:rgb(196, 196, 196);
+}
+html{
+    scroll-behavior: smooth;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: rgba(0, 23, 228, 0.925);
+}
+.navnaam{
+    text-align: left;
+    font-size: x-large;
+    color: rgba(0, 23, 228, 0.925);
+}
+.navbar1{
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+}
+.homepage a{
+    text-decoration: none;
+    color: rgba(0, 23, 228, 0.925);
+}
+.homepage{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: x-large;
+}
+#hometext{
+    text-align: left;
+}
+.textwhite1{
+    text-align: left;
+}
+.miauw{
+    float: left;
+    margin-top: 10px;
+}
