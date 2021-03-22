@@ -42,7 +42,7 @@ nav{
     margin-top: 5em;
 }
 .aboutheader{
-    margin-top: 6em;
+    
     text-align: center;
     color: rgba(0, 23, 228, 0.925);
 }
@@ -56,9 +56,11 @@ nav{
     margin-top: 30px;
     padding: 15px;
     font-size: larger;
+    text-align: justify;
 }
 #foto1{
     display: block;
+    width:15em;
 }
 #gegevens{
     font-size: large;
@@ -238,9 +240,13 @@ input[type=submit]:hover {
     left: 0;
     right: 0;
     color: rgba(0, 23, 228, 0.925);
-    background-color:rgba(196, 196, 196, 0.815);
+    background-color:rgba(201, 200, 200, 0.815);
 }
 hr{
     width: 65%;
     border-width: 2px;
 }
+.dark-mode {
+    background-color: rgb(29, 29, 29);
+    color: rgb(163, 163, 163);
+  }
