@@ -53,14 +53,7 @@ nav{
 #about{
     margin-top: 5em;
 }
-#about-me{
-    margin-top: 30px;
-    padding: 15px;
-    text-align: left;
-}
-#tekst{
-    margin-top: 4em;
-}
+
 #foto1{
     display: block;
     width:15em;
@@ -377,29 +370,27 @@ button:nth-child(20){
     margin-top: 5em;
 }
 
-
-
-table {
+table.board {
     border-collapse: collapse;
     margin-bottom: 1em;
-  }
+}
   
-  td {
+td {
     width: 90px;
     height: 90px;
     text-align: center;
     line-height: 80px;
     font-size: 60px;
-  }
+}
   
-  td + td {
+td + td {
     border-left: 1px solid black;
-  }
+}
   
   tr + tr td {
     border-top: 1px solid black;
-  }
-  .board {
+}
+.board {
   
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px 200px 200px;
