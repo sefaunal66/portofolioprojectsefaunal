@@ -1,230 +1,328 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <title>Sefa Ünal</title>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-            <link rel="stylesheet" href="SefaPortfoliocss/index.CSS">
-        </head>
-        <body>
+<html lang="en">
 
-            <section id="home">
-                <nav class="navbar navbar-expand-lg fixed-top">
-                        <ul class="navbar1">
-                            <div class="row">
-                                <span class="col-md-6">
-                                    <li class="navnaam">Sefa Ünal</li>
-                                </span>
-                                <div class="col-md-4">
-                                    <ul class="navbar-nav ml-auto">
-                                        <li class="navbar-item homepage"><a href="index.html">Home</a></li>
-                                        <li class="navbar-item homepage"><a href="#sectionabout">About</a></li>
-                                        <li class="navbar-item homepage"><a href="#projects">Projects</a></li>
-                                        <li class="navbar-item homepage"><a href="#contact">Contact</a></li>
+<head>
+    <title>Sefa Ünal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="SefaPortfoliocss/index.CSS">
+</head>
+
+<body>
+
+    <section id="home">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <ul class="navbar1">
+                <div class="row">
+                    <span class="col-md-6">
+                        <li class="navnaam">Sefa Ünal</li>
+                    </span>
+                    <div class="col-md-4">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="navbar-item homepage"><a href="#home">Home</a></li>
+                            <li class="navbar-item homepage"><a href="#sectionabout">About</a></li>
+                            <li class="navbar-item homepage"><a href="#projects">Projects</a></li>
+                            <li class="navbar-item homepage"><a href="#contact">Contact</a></li>
+                            <li class="navbar-item homepage"><a href="#calc">Calculator</a></li>
+                            <li class="navbar-item homepage"><a href="#ttt">TTT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1 id="hometext"><a href="index.html"></a> Home</h1>
+                    <p class="textwhite1">hello there, <strong>my fellow human</strong>,</br> and welcome to my
+                        <strong>Portfolio</strong>
+                        take a look around,</br> if there is <strong>anything</strong> you want to know, you can always
+                        <a href="#contact"><strong>contact</strong></a> me.
+                    </p>
+                    </p>
+                    <a href="#sectionabout" type="button" class="btn btn-primary">get started</a>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/images.jpg" class="foto0" alt="responsive image">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">toch liever in <strong>darkmodes?</strong></div>
+            </div>
+            <div>
+                <button class="btn btn-primary" onclick="myFunction()">Toggle dark mode</button>
+            </div>
+        </div>
+    </section>
+    <div>
+        <section>
+            <section id="about"></section>
+        </section>
+    </div>
+    <h1 class="aboutheader"><span id="sectionabout"></span>about</h1>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/sefa unal.png" alt="ik" id="foto1">
+                </div>
+                <div class="col-md-3"> 
+                    <div class="row">
+                        <h3 style="color: rgba(0, 23, 228, 0.925);">Sefa Ünal</h3>
+                    </div>
+                    <div class="row">
+                        <table id="about-me">
+                            <tr>
+                                <td>first name: </td>
+                                <td>Peyami Sefa</td>
+                            </tr>
+                            <tr>
+                                <td>Last name: </td>
+                                <td>Ünal</td>
+                            </tr>
+                            <tr>
+                                <td>adres: </td>
+                                <td>Veluweplein 32</td>
+                            </tr>
+                            <tr>
+                                <td>Postcode: </td>
+                                <td>2571GB Den Haag</td>
+                            </tr>
+                            <tr>
+                                <td>telefoon: </td>
+                                <td>0627203502</td>
+                            </tr>
+                            <tr>
+                                <td>email: </td>
+                                <td>peyamisefa@live.nl</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <p id="tekst">Hello, my name is <strong>Sefa</strong>, I'm a beginner <strong>software developer</strong>.
+                            I made this <strong>portfolio</strong> website as an assignment for <strong>school</strong>.
+                            In my portofolio you can see what projects I have made thusfar.
+                            and what experience i have in <strong>programming</strong> languages: <strong>C#</strong>,
+                            <strong>HTML</strong> and <strong>CSS</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="artboard">
+                        <div class="card">
+                            <div class="card__side card__side--back">
+                                <div class="card__cover">
+                                    <h4 class="card__heading">
+                                        <span class="card__heading-span">Skill Set</span>
+                                    </h4>
+                                </div>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>CSS</li>
+                                        <li>HTML</li>
+                                        <li>C#</li>
                                     </ul>
                                 </div>
                             </div>
-                        </ul>
-                    </div>
-                </nav>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <h1 id="hometext"><a href="index.html"></a> Home</h1>
-                            <p class="textwhite1">hello there, <strong>my fellow human</strong>,</br> and welcome to my <strong>Portfolio</strong>
-                            take a look around,</br> if there is <strong>anything</strong> you want to know, you can always <a href="#contact"><strong>contact</strong></a> me. </p>
-                            </p>
-                            <a href="#sectionabout" type="button" class="btn btn-primary">get started</a>
-                        </div>
-                        <div class="col-md-5">
-                            <img src="img/images.jpg" class="foto0" alt="responsive image">
+                            <div class="card__side card__side--front">
+                                <div class="card__theme">
+                                    <div class="card__theme-box">
+                                        <p class="card__subject">Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">toch liever in <strong>darkmodes?</strong></div>
-                    </div>
-                    <div>
-                        <button class="btn btn-primary" onclick="myFunction()">Toggle dark mode</button>
-                    </div>
-                </div>
-            </section>
-            <div>
-                <section>
-                    <section id="about"></section>
-                </section>
             </div>
-            <h1 class="aboutheader"><span id="sectionabout"></span>about</h1>
+        </div>
+        </section>
+
+        <section id="projects" style="text-align: center;">
+            <h1 style="margin-top: 5em; margin-right: 50px; color: rgba(0, 23, 228, 0.925);">My Projects</h1>
             <hr>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="img/sefa unal.png" alt="ik" id="foto1">
-                                </div>
-                                <div class="col-md-6">
-                                    <h3 style="color: rgba(0, 23, 228, 0.925);">Sefa Ünal</h3>
-                                    <table style="width:100%" id="gegevens">
-                                        <tr>
-                                            <td>first name: </td>
-                                            <td>Peyami Sefa</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Last name: </td>
-                                            <td>Ünal</td>
-                                        </tr>
-                                        <tr>
-                                            <td>adres: </td>
-                                            <td>Veluweplein 32</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Postcode: </td>
-                                            <td>2571GB Den Haag</td>
-                                        </tr>
-                                        <tr>
-                                            <td>telefoon: </td>
-                                            <td>0627203502</td>
-                                        </tr>
-                                        <tr>
-                                            <td>email: </td>
-                                            <td>peyamisefa@live.nl</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="row">
-                                    <p id="about-me">Hello, my name is <strong>Sefa</strong>, I'm a beginner <strong>software developer</strong>.
-                                     I made this <strong>portfolio</strong> website as an assignment for <strong>school</strong>. In my portofolio you can see what projects I have made thusfar.
-                                     and what experience i have in <strong>programming</strong> languages: <strong>C#</strong>, <strong>HTML</strong> and <strong>CSS</strong></p>
-                                </div>
-                            </div>
-                        </div>
-                    <div class="col-md-6">
-                        <div class="artboard">
-                            <div class="card">
-                                <div class="card__side card__side--back">
-                                    <div class="card__cover">
-                                        <h4 class="card__heading">
-                                        <span class="card__heading-span">Skill Set</span>
-                                        </h4>
-                                    </div>
-                                        <div class="card__details">
-                                            <ul>
-                                                <li>CSS</li>
-                                                <li>HTML</li>
-                                                <li>C#</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                <div class="card__side card__side--front">
-                                    <div class="card__theme">
-                                        <div class="card__theme-box">
-                                            <p class="card__subject">Web Developer</p>
-                                        </div>
-                                    </div>
-                                </div>
+            <div class="container" style="margin-top: 3em;">
+                <div class="row justify-content-md-center" id="ruimte">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/dices.png" alt="dices" style="height:300px">
+                            <div class="card-body col-md-12 d-flex flex-column">
+                                <h5 class="card-title mt-auto">Dice project</h5>
+                                <p class="card-text mt-auto">in this project i made a <strong>C# coding</strong>. in
+                                    this project the user can throw as many <strong>dices</strong> as he wishes.
+                                    it will show a number from 1 to 6 for each <strong>dice</strong> and the total
+                                    amount for every <strong>dice</strong> thrown</p>
+                                <a href="https://github.com/ROCMondriaanTIN/sd20-csharp-dice-assignment-sefaunal66"
+                                    class="btn btn-primary mt-auto">Dice project</a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <section id="projects" style="text-align: center;">
-                <h1 style="margin-top: 5em; margin-right: 50px; color: rgba(0, 23, 228, 0.925);">My Projects</h1>
-                    <hr>
-                    <div class="container" style="margin-top: 3em;">
-                        <div class="row justify-content-md-center" id="ruimte">
-                            <div class="col-md-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="img/dices.png" alt="dices" style="height:300px">
-                                        <div class="card-body col-md-12 d-flex flex-column" >
-                                            <h5 class="card-title mt-auto">Dice project</h5>
-                                            <p class="card-text mt-auto">in this project i made a <strong>C# coding</strong>. in this project the user can throw as many <strong>dices</strong> as he wishes.
-                                            it will show a number from 1 to 6 for each <strong>dice</strong> and the total amount for every <strong>dice</strong> thrown</p>
-                                            <a href="https://github.com/ROCMondriaanTIN/sd20-csharp-dice-assignment-sefaunal66" class="btn btn-primary mt-auto">Dice project</a>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="img/zoo.jpg" alt="A zoo" style="height:300px; object-fit:cover;" >
-                                        <div class="card-body col-md-12 d-flex flex-column">
-                                            <h5 class="card-title mt-auto">Zoo project</h5>
-                                            <p class="card-text mt-auto">in this project i made a <strong>C# coding</strong>. in this project the <strong>C#</strong> program shows a few <strong>animals</strong>, what <strong>sound</strong> they make and how many <strong>legs</strong> they've got</p>
-                                            <a href="https://github.com/ROCMondriaanTIN/sd20-csharp-opdracht-dierentuin-sefaunal66" class="btn btn-primary mt-auto">Zoo project</a>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="img/bootstrap.png" alt="bootstrap logo" style="height:300px">
-                                        <div class="card-body col-md-12 d-flex flex-column">
-                                            <h5 class="card-title mt-auto">bootstrap</h5>
-                                            <p class="card-text mt-auto">in this project i made a <strong>HTML</strong> page. this website is a site for a <strong>flowershop</strong> located in the <strong>netherlands</strong>.</p>
-                                            <a href="https://github.com/sefaunal66/bootstrap" class="btn btn-primary mt-auto">bootstrap assignment</a>
-                                        </div>
-                                </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/zoo.jpg" alt="A zoo"
+                                style="height:300px; object-fit:cover;">
+                            <div class="card-body col-md-12 d-flex flex-column">
+                                <h5 class="card-title mt-auto">Zoo project</h5>
+                                <p class="card-text mt-auto">in this project i made a <strong>C# coding</strong>. in
+                                    this project the <strong>C#</strong> program shows a few <strong>animals</strong>,
+                                    what <strong>sound</strong> they make and how many <strong>legs</strong> they've got
+                                </p>
+                                <a href="https://github.com/ROCMondriaanTIN/sd20-csharp-opdracht-dierentuin-sefaunal66"
+                                    class="btn btn-primary mt-auto">Zoo project</a>
                             </div>
                         </div>
                     </div>
-            </section>
-
-            <section id="contact">
-                <div>
-                    <h1 style="text-align: center; color: rgba(0, 23, 228, 0.925); margin-top: 5em;">Contact</h1>
-                </div>
-                <hr>
-                <div class="container">
-                    <form action="/action_page.php">
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  
-                        <label for="country">Country</label>
-                        <select id="country" name="country">
-                            <option value="choose your country">Choose your country</option>
-                            <option value="netherlands">Netherlands</option>
-                            <option value="canada">Canada</option>
-                            <option value="usa">USA</option>
-                            <option value="turkey">Turkey</option>
-                            <option value="australia">Australia</option>
-                            <option value="spain">Spain</option>
-                            <option value="kenya">Kenya</option>
-                            <option value="nigeria">Nigeria</option>
-                            <option value="united kingdom">United Kingdom</option>
-                            <option value="brazil">Brazil</option>
-                            <option value="argentina">Argentina</option>
-                            <option value="india">india</option>
-                            <option value="sweden">Sweden</option>
-                        </select>
-                  
-                        <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  
-                      <input type="submit" value="Submit">
-                    </form>
-                  </div>
-                  
-                
-            </section>
-            </br></br></br>
-            
-            <div id="footer">
-                <div class="row">
-                    <div class="col-12" style="text-align: center;">
-                        @2021 P . S . Ü - Peyami Sefa Ünal
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/bootstrap.png" alt="bootstrap logo" style="height:300px">
+                            <div class="card-body col-md-12 d-flex flex-column">
+                                <h5 class="card-title mt-auto">bootstrap</h5>
+                                <p class="card-text mt-auto">in this project i made a <strong>HTML</strong> page. this
+                                    website is a site for a <strong>flowershop</strong> located in the
+                                    <strong>netherlands</strong>.
+                                </p>
+                                <a href="https://github.com/sefaunal66/bootstrap"
+                                    class="btn btn-primary mt-auto">bootstrap assignment</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-           
-            <script src="SefaPortofolioJS/index.JS"></script>
-        </body>
-    </html>
+        </section>
+
+        <section id="contact">
+            <div>
+                <h1 style="text-align: center; color: rgba(0, 23, 228, 0.925); margin-top: 5em;">Contact</h1>
+            </div>
+            <hr>
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="choose your country">Choose your country</option>
+                        <option value="netherlands">Netherlands</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="turkey">Turkey</option>
+                        <option value="australia">Australia</option>
+                        <option value="spain">Spain</option>
+                        <option value="kenya">Kenya</option>
+                        <option value="nigeria">Nigeria</option>
+                        <option value="united kingdom">United Kingdom</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="india">india</option>
+                        <option value="sweden">Sweden</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+
+        </section>
+        </br></br></br>
+
+        <div id="footer">
+            <div class="row">
+                <div class="col-12" style="text-align: center;">
+                    @2021 P . S . Ü - Peyami Sefa Ünal
+                </div>
+            </div>
+        </div>
+
+        <section id="calc">
+            <h1>My Calculator</h1>
+        </section>
+
+        <hr>
+
+        <section>
+            <div id="container">
+                <div id="calculator">
+                    <div id="result">
+                        <div id="history">
+                            <p id="history-value"></p>
+                        </div>
+                        <div id="output">
+                            <p id="output-value"></p>
+                        </div>
+                    </div>
+                    <div id="keyboard">
+                        <button class="operator" id="clear">C</button>
+                        <button class="operator" id="backspace">CE</button>
+                        <button class="operator" id="%">%</button>
+                        <button class="operator" id="/">&#247;</button>
+                        <button class="number" id="7">7</button>
+                        <button class="number" id="8">8</button>
+                        <button class="number" id="9">9</button>
+                        <button class="operator" id="*">&times;</button>
+                        <button class="number" id="4">4</button>
+                        <button class="number" id="5">5</button>
+                        <button class="number" id="6">6</button>
+                        <button class="operator" id="-">-</button>
+                        <button class="number" id="1">1</button>
+                        <button class="number" id="2">2</button>
+                        <button class="number" id="3">3</button>
+                        <button class="operator" id="+">+</button>
+                        <button class="empty" id="empty"></button>
+                        <button class="number" id="0">0</button>
+                        <button class="empty" id="empty"></button>
+                        <button class="operator" id="=">=</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ttt">
+            <h1 id="ttt">TicTacToe</h1>
+        </section>
+        <hr>
+
+        <p class="turns"><span>×</span> to move</p>
+
+        <table id="TicTacToe" class="board">
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        
+        <button class="reset">New Game</button>
+<br><br><br><br>
+        <script src="SefaPortofolioJS/darkmode.JS"></script>
+        <script src="SefaPortofolioJS/calculator.js"></script>
+
+</body>
+
+</html>

@@ -56,16 +56,24 @@ nav{
 #about-me{
     margin-top: 30px;
     padding: 15px;
-    font-size: larger;
-    text-align: justify;
+    text-align: left;
+}
+#tekst{
+    margin-top: 4em;
 }
 #foto1{
     display: block;
     width:15em;
 }
-#gegevens{
-    font-size: large;
+
+#about-me tr + tr td{
+    border-top: 0px solid white;
 }
+
+#about-me td + td{
+border: 0px solid white;
+}
+
 .artboard{
     display: flex;
     flex-flow: row;
@@ -158,22 +166,27 @@ nav{
     padding: 1rem 1.5rem;
     color: #fff;
 }
+
 .card__details{
     padding: 10px;
 }
+
 .card__details ul{
     list-style: none;
     width: 80%;
     margin: 0 auto;
 }
+
 .card__details ul li{
     text-align: center;
     font-size: 1.8rem;
     padding: 1rem;
 }
+
 .card__details ul li:not(:last-child){
     border-bottom: 1px solid #eee;
 }
+
 .card{
     height: auto;
     border-radius: 3px;
@@ -181,23 +194,29 @@ nav{
     box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.15);
     height: 100%;
 }
+
 .card__side{
     height: auto;
     position: relative;
     box-shadow: none;
 }
+
 .card__side--front{
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
 }
+
 .card__side--back{
     transform: rotateY(0);
 }
+
 .card:hover .card__side--front{
     transform: rotateY(0);
 }
+
 .card__details{
     padding: 3rem 2rem;
 }
+
 .card__theme{
     position: relative;
     top: 0;
@@ -207,12 +226,15 @@ nav{
     padding: 5rem 4rem 1.5rem 4rem;
     text-align: right;
 }
+
 .card__theme-box{
     margin-bottom: 1.5rem;
 }
+
 .card__title{
     font-size: 4rem;
 }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -223,6 +245,7 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
+
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -230,10 +253,12 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-} 
+}
+
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
 #footer{
     position: fixed;
     bottom: 0;
@@ -243,11 +268,151 @@ input[type=submit]:hover {
     color: rgba(0, 23, 228, 0.925);
     background-color:rgba(201, 200, 200, 0.815);
 }
+
 hr{
     width: 65%;
     border-width: 2px;
 }
+
 .dark-mode {
     background-color: rgb(29, 29, 29);
     color: rgb(163, 163, 163);
-  }
+}
+
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;	
+}
+
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 20px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#result{
+	height: 120px;
+}
+
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard{
+	height: 400px;
+}
+
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.number, .empty{
+	background-color: #eaedef;
+}
+
+.number, .operator{
+	cursor: pointer;
+}
+
+.operator:active, .number:active{
+	font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffa500;
+}
+
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+}
+
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #9477af;
+}
+
+#calc{
+    text-align: center;
+    color: rgba(0, 23, 228, 0.925);
+    margin-top: 5em;
+}
+
+#ttt{
+    text-align: center;
+    color: rgba(0, 23, 228, 0.925);
+    margin-top: 2em;
+}
+
+#TicTacToe {
+margin-left:450px;
+}
+  
+#TicTacToe td {
+width: 90px;
+height: 90px;
+text-align: center;
+line-height: 80px;
+}
+  
+#TicTacToe td + td {
+border-left: 1px solid white;
+}
+  
+tr + tr td {
+border-top: 1px solid white;
+}
+
+#TicTacToe .board {
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    font-family: 'Lato', sans-serif;
+    border: solid 1px black;
+}
+
+.turns{
+    margin-left: 27em;
+}
+
+.reset{
+    margin-left: 26em;
+}
